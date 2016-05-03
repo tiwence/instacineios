@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575476C01CCE185B005E8AB1 /* paris.GPX in Resources */ = {isa = PBXBuildFile; fileRef = 575476BF1CCE185B005E8AB1 /* paris.GPX */; };
 		5764B0311CCA1C5E00771FAB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5764B0301CCA1C5E00771FAB /* main.m */; };
 		5764B0341CCA1C5E00771FAB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5764B0331CCA1C5E00771FAB /* AppDelegate.m */; };
 		5764B0371CCA1C5E00771FAB /* MovieTheaterListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5764B0361CCA1C5E00771FAB /* MovieTheaterListController.m */; };
@@ -22,6 +23,8 @@
 		5764B0741CCA5FAB00771FAB /* Movie.m in Sources */ = {isa = PBXBuildFile; fileRef = 5764B0731CCA5FAB00771FAB /* Movie.m */; };
 		5764B0771CCA5FBA00771FAB /* MovieTheater.m in Sources */ = {isa = PBXBuildFile; fileRef = 5764B0761CCA5FBA00771FAB /* MovieTheater.m */; };
 		5764B07A1CCA5FDE00771FAB /* Showtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 5764B0791CCA5FDE00771FAB /* Showtime.m */; };
+		5764B07D1CCA6E0B00771FAB /* Cast.m in Sources */ = {isa = PBXBuildFile; fileRef = 5764B07C1CCA6E0B00771FAB /* Cast.m */; };
+		5764B0801CCA6ED800771FAB /* Crew.m in Sources */ = {isa = PBXBuildFile; fileRef = 5764B07F1CCA6ED800771FAB /* Crew.m */; };
 		D75E2A42AC010162FE48B312 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73395425469B79547F15FD65 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +47,7 @@
 
 /* Begin PBXFileReference section */
 		3C79F0732F0070BC7CB59FB3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		575476BF1CCE185B005E8AB1 /* paris.GPX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = paris.GPX; sourceTree = "<group>"; };
 		5764B02C1CCA1C5E00771FAB /* instacine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instacine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5764B0301CCA1C5E00771FAB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5764B0321CCA1C5E00771FAB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +76,10 @@
 		5764B0761CCA5FBA00771FAB /* MovieTheater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieTheater.m; sourceTree = "<group>"; };
 		5764B0781CCA5FDE00771FAB /* Showtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Showtime.h; sourceTree = "<group>"; };
 		5764B0791CCA5FDE00771FAB /* Showtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Showtime.m; sourceTree = "<group>"; };
+		5764B07B1CCA6E0B00771FAB /* Cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cast.h; sourceTree = "<group>"; };
+		5764B07C1CCA6E0B00771FAB /* Cast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cast.m; sourceTree = "<group>"; };
+		5764B07E1CCA6ED800771FAB /* Crew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crew.h; sourceTree = "<group>"; };
+		5764B07F1CCA6ED800771FAB /* Crew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Crew.m; sourceTree = "<group>"; };
 		73395425469B79547F15FD65 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7859F8B89E3FACBA083C3798 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,6 +121,14 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		575476BE1CCE1840005E8AB1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				575476BF1CCE185B005E8AB1 /* paris.GPX */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		5764B0231CCA1C5E00771FAB = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +156,7 @@
 		5764B02E1CCA1C5E00771FAB /* instacine */ = {
 			isa = PBXGroup;
 			children = (
+				575476BE1CCE1840005E8AB1 /* Assets */,
 				5764B0691CCA289900771FAB /* Controllers */,
 				5764B0321CCA1C5E00771FAB /* AppDelegate.h */,
 				5764B0331CCA1C5E00771FAB /* AppDelegate.m */,
@@ -216,6 +233,10 @@
 				5764B0761CCA5FBA00771FAB /* MovieTheater.m */,
 				5764B0781CCA5FDE00771FAB /* Showtime.h */,
 				5764B0791CCA5FDE00771FAB /* Showtime.m */,
+				5764B07B1CCA6E0B00771FAB /* Cast.h */,
+				5764B07C1CCA6E0B00771FAB /* Cast.m */,
+				5764B07E1CCA6ED800771FAB /* Crew.h */,
+				5764B07F1CCA6ED800771FAB /* Crew.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -343,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5764B0421CCA1C5E00771FAB /* LaunchScreen.storyboard in Resources */,
+				575476C01CCE185B005E8AB1 /* paris.GPX in Resources */,
 				5764B03F1CCA1C5E00771FAB /* Assets.xcassets in Resources */,
 				5764B03D1CCA1C5E00771FAB /* Main.storyboard in Resources */,
 			);
@@ -402,8 +424,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5764B0801CCA6ED800771FAB /* Crew.m in Sources */,
 				5764B0741CCA5FAB00771FAB /* Movie.m in Sources */,
 				5764B0711CCA3D5F00771FAB /* MovieApiClient.m in Sources */,
+				5764B07D1CCA6E0B00771FAB /* Cast.m in Sources */,
 				5764B03A1CCA1C5E00771FAB /* MapViewController.m in Sources */,
 				5764B0341CCA1C5E00771FAB /* AppDelegate.m in Sources */,
 				5764B0771CCA5FBA00771FAB /* MovieTheater.m in Sources */,

@@ -16,4 +16,10 @@ extern NSString * const kMovieDBMovieRootURLString;
 
 @interface MovieApiClient : AFHTTPSessionManager
 
++ (MovieApiClient *)sharedClient;
+
+- (void) getMovieTheatersShowTimesWithLocation:(NSString *)location
+                                       success:(void(^)(NSURLSessionDataTask *task, id responseObject))success
+                                       failure:(void(^)(NSURLSessionDataTask *task, NSError *error))failure;
+
 @end

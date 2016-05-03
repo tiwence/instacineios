@@ -42,6 +42,7 @@ PODS:
   - Facebook-iOS-SDK/ShareKit (4.1.0):
     - Bolts (~> 1.1)
     - Facebook-iOS-SDK/CoreKit
+  - HTMLReader (0.9.6)
   - SDWebImage (3.7.5):
     - SDWebImage/Core (= 3.7.5)
   - SDWebImage/Core (3.7.5)
@@ -49,12 +50,14 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (= 2.5.3)
   - Facebook-iOS-SDK (~> 4.1)
+  - HTMLReader
   - SDWebImage (~> 3.7.1)
 
 SPEC CHECKSUMS:
   AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
   Bolts: a0058fa3b331c5a1e4402d534f2dae36dbff31e4
   Facebook-iOS-SDK: f42dfb27283bf5f05e3a9edc88459a75b9892d99
+  HTMLReader: 7e21488ee378afc56ccade8af35840c4e03e434c
   SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
 
 COCOAPODS: 0.37.2

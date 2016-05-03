@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" creator="Vilem Lipold (http://www.gcgpx.cz)" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>GPX soubor vytvoreny ze souradnic</name>
+    <desc>Vytvoreno bez zaruky spravnosti</desc>
+    <author>
+      <name>Vilém Lipold</name>
+      <email id="projekty" domain="littleband.cz"/>
+      <link href="http://www.gcgpx.cz">
+        <text>Převod souřadnic do GPX (http://www.gcgpx.cz)</text>
+      </link>
+    </author>
+    <time>2016-04-25T11:08:50Z</time>
+    <bounds maxlat="48.890477" maxlon="2.370543" minlat="48.890477" minlon="2.370543"/>
+  </metadata>
+  <wpt lat="48.890477" lon="2.370543">
+    <ele>0</ele>
+    <time>2016-04-25T11:08:50Z</time>
+    <name>48.8904771 2.3705427</name>
+    <desc>48.8904771 2.3705427</desc>
+    <sym>Pin, Red</sym>
+  </wpt>
+</gpx>

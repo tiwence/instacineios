@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
+#import "MovieApiClient.h"
+#import <HTMLReader/HTMLReader.h>
 
-@interface MovieTheaterListController : UITableViewController
+@interface MovieTheaterListController : UITableViewController <CLLocationManagerDelegate>
 
+@property (nonatomic, strong) CLLocationManager *locationManager;
 
 @end
 
